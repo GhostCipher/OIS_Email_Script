@@ -26,9 +26,9 @@ def fix_name(name):
 
 
 def send_mail(arg):
-    ois_email = "Office-Of-Information-Security@tamucc.edu"
-    jira_email = "jira@jira.tamucc.edu"
-    service_desk_email = "servicedesk@tamucc.edu"
+    ois_email = ""
+    jira_email = ""
+    service_desk_email = ""
 
     for n in range(0, len(arg.files)):
         if arg.verbose:
